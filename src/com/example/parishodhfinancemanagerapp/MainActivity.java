@@ -1,9 +1,11 @@
 package com.example.parishodhfinancemanagerapp;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,8 +14,14 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        // If session active, then call launchMain directly.
     }
-
+    
+    public void launchMain(View view) {
+		Intent intent = new Intent(this, SecondActivity.class);
+		startActivity(intent);
+	}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
