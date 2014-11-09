@@ -42,6 +42,25 @@ public class MyBillsFragment  extends Fragment {
 		        "OS/2", "Ubuntu", "Windows7", "Max OS X", "Linux", "OS/2",
 		        "Android", "iPhone", "WindowsMobile" };
 
+		/*HttpClient httpclient = new DefaultHttpClient();
+		StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+		StrictMode.setThreadPolicy(policy);
+		
+		HttpResponse response = httpclient.execute(new HttpGet("http://10.242.80.190:8005/user"));
+	    StatusLine statusLine = response.getStatusLine();
+	    if(statusLine.getStatusCode() == HttpStatus.SC_OK){
+	        ByteArrayOutputStream out = new ByteArrayOutputStream();
+	        response.getEntity().writeTo(out);
+	        out.close();
+	        String responseString = out.toString();
+	        System.out.println(responseString);
+	        //..more logic
+	    } else{
+	        //Closes the connection.
+	        response.getEntity().getContent().close();
+	        throw new IOException(statusLine.getReasonPhrase());
+	    }*/
+		
 		final ArrayList<String> list = new ArrayList<String>();
 	    for (int i = 0; i < values.length; ++i) {
 	      list.add(values[i]);

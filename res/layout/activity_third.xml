@@ -8,19 +8,38 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.parishodhfinancemanagerapp.ThirdActivity" >
 
-    <ImageView
+    <!-- <ImageView
         android:id="@+id/imgView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"></ImageView>
+        android:layout_weight="1"></ImageView> -->
+    
+    <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:id="@+id/messageText"
+         android:textColor="#000000"
+         android:textStyle="bold"
+     />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imgView"
-        android:layout_below="@+id/imgView"
-        android:layout_marginTop="62dp"
-        android:text="Upload Image" />
+        android:layout_alignLeft="@+id/messageText"
+        android:layout_below="@+id/messageText"
+        android:layout_marginTop="124dp"
+        android:text="Locate your Image" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="36dp"
+        android:text="Upload" />
 
 </RelativeLayout>
