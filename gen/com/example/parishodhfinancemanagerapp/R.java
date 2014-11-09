@@ -1250,8 +1250,9 @@ containing a value of this type.
         public static final int activity_main=0x7f030019;
         public static final int activity_second=0x7f03001a;
         public static final int my_bills_fragment=0x7f03001b;
-        public static final int submit_bill_fragment=0x7f03001c;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int row=0x7f03001c;
+        public static final int submit_bill_fragment=0x7f03001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
     }
     public static final class menu {
         public static final int details=0x7f0c0000;
@@ -1452,6 +1453,7 @@ containing a value of this type.
         public static final int Theme_Base_Light=0x7f0b007f;
         public static final int Theme_Mybills=0x7f0b008d;
         /**  this style is only referenced in a Light.DarkActionBar based theme 
+ this style is only referenced in a Light.DarkActionBar based theme 
          */
         public static final int Theme_Mybills_Widget=0x7f0b0096;
         /**  Styles in here can be extended for customisation in your application. Each utilises
