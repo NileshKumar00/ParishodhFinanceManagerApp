@@ -19,9 +19,11 @@ public class SubmitFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
+		
 		View mainView = inflater.inflate(R.layout.submit_bill_fragment, container, false);
 		setChapterSpinnerContent( mainView );
 		setProjectSpinnerContent( mainView );
+		
 		return mainView;
 	}
 	

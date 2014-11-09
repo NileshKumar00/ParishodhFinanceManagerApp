@@ -57,6 +57,12 @@ public class SecondActivity extends FragmentActivity {
 	    actionBar.addTab( actionBar.newTab().setText("Submit Bills").setTabListener(tabListener));
 	}
 	
+	public void launchUpload(View view) {
+		Intent intent = new Intent(view.getContext().getApplicationContext(), ThirdActivity.class);
+		startActivity(intent);
+	}
+	
+	
     // When any link among the given bills is clicked it can be viewed/Edited
     public void switchToDetailsActivity(View view) {
     	Intent intent = new Intent(this, DetailsActivity.class);

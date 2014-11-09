@@ -8,5 +8,6 @@
     <string name="title_activity_second">MainActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
 
 </resources>
